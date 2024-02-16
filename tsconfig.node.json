@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "vite.config.ts",
+    "src/plugins/vite-plugin-bumi-flow-regex.ts",
+    "src/plugins/vite-plugin-bumi-flow-literal.ts",
+    "src/plugins/vite-plugin-bumi-flow-property.ts",
+    "src/bumiFlow.ts",
+    "src/constructorCss.ts",
+    "src/compileBumiFlow.ts"
+  ]
+}
